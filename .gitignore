@@ -1,0 +1,44 @@
+# Environment
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local database
+*.db
+*.sqlite
+*.sqlite3
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Project backups / temporary files
+backend-patch/
+backend_backup_*/
+tests_backup_*/
+*_backup.py
+import_block.txt
+test_env.py
+list_models.py
+
+# Frontend temporary backups
+frontend/src/*_backup_*.jsx
+frontend/src/*_before_final_*.jsx
